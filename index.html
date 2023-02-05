@@ -1,0 +1,54 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="header-img" src="/mochi_ice_cream2.png">
+            <div class="banner-text">FairyFluff</div>
+        </header>
+        <main>
+            <div id="menu"></div>
+            <div id="summary-container">
+                <h4 style="text-align:center">Your Order</h4>
+                <div id="summary-inner">
+                    <ul id="cart-items">
+                    </ul>
+                </div>
+            </div>
+            <button id="buy-btn"></button>
+        </main>
+        <div id="creditcard-popup" class="hidden">
+            <div id="close-btn-container">X</div>
+            <div id="payment-container" class="payment-container">
+                <h1>Payment</h1>
+                <form id="payment-form">
+                    <div>
+                        <label for="name-card">Name on card:</label>
+                        <input id="name-card" required>
+                    </div>
+                    <div>
+                        <label for="number-card">Card number:</label><br>
+                        <input id="number-card" type="number" required>
+                    </div>
+                    <div>
+                        <label for="month-card">Expiration Month:</label>
+                        <input id="month-card" type="number" placeholder="01" required>
+                    </div>
+                    <div>
+                        <label for="year-card">Expiration Year:</label>
+                        <input id="year-card" type="number" placeholder="02" required>
+                    </div>
+                    <div>
+                        <button id="pay-btn" type="submit">Pay</button>
+                    </div>
+                </div>
+            <form>
+        </div>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>

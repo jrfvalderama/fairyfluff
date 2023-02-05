@@ -1,0 +1,134 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #fffbff;
+    color: #201a1b;
+    min-width: 400px;
+    max-width: 500px;
+    border: 2px solid #847375;
+    border-radius: 10px;
+    margin: 5px auto;
+
+} 
+
+.header-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.banner-text {
+    font-family: 'Sacramento', cursive;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.order ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+#cart-items {
+    list-style-type: none; 
+    padding: 0px 10px;
+
+}
+
+.item-picture {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.item-name {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.item-ingredients {
+    font-size: 14px;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+.item-price {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+#buy-btn {
+    display: block;
+    margin: 5px auto;
+    border: none;
+    background-color: #E8DEF8;
+    color: #1D192B;
+    font-weight: bolder;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#creditcard-popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 2px dotted #79747E;
+    background-color: #FFFBFE;
+    color: #1C1B1F;
+    margin: auto;
+    width: 250px;
+    min-height: 280px;
+    max-height: 280px;
+}
+
+.hidden {
+    display: none;
+}
+
+.payment-container {
+    display: block;
+    padding-left: 10px;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+#close-btn-container {
+    text-align: right;
+    font-size: 1.5em;
+    color: #ef476f;
+    margin: 5px 5px;
+}
+
+input {
+    margin-bottom: 5px;
+}
+
+/* utility classes */
+
+.right-side {
+    float: right;
+    padding: 0 10px;
+}
+
+.round {
+    background-color: #FFD8E4;
+    color: #31111D;
+    /* border: 1px solid #400014; */
+    box-shadow:  0px 3px 1px -2px #000;
+    border-radius: 50%;
+    padding: 10px;
+}
